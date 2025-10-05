@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app: nginx
+        app: nginx-new
     spec:
       containers:
       - name: nginx
@@ -38,3 +38,4 @@ spec:
     port: 80
     targetPort: 80
   type: NodePort
+
